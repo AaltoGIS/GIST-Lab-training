@@ -1,0 +1,14 @@
+.bd-content {
+  max-width: 900px;
+}
+
+.bd-article-container h1,
+.bd-article-container h2,
+.bd-article-container h3 {
+  letter-spacing: 0;
+}
+
+.bd-article-container p,
+.bd-article-container li {
+  line-height: 1.6;
+}
