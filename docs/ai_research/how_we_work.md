@@ -106,29 +106,29 @@ the diff — while the agent moves fast inside each step. You decide between the
 it does the legwork within them. This is the method the
 {doc}`hands-on exercises </ai_research/exercises/before_you_start>` walk you through.
 
-## The last rung: `/goal`
+## Working toward a goal: `/goal`
 
-One step further up the autonomy ladder is the
-[`/goal` command](https://code.claude.com/docs/en/goal): you state a completion
-condition, and Claude keeps working turn after turn — a small fast model checks the
-condition after each turn — until it is met, judged impossible, or you run
-`/goal clear`.
+For work with a clear, checkable end state, the
+[`/goal` command](https://code.claude.com/docs/en/goal) lets Claude continue on its
+own. You give a completion condition; after each turn, a small fast model checks
+whether it holds, and Claude keeps going until the condition is met, judged
+impossible, or you run `/goal clear`.
 
 ```text
 /goal all tests in tests/ pass and ruff reports no issues — or stop after 15 turns
 ```
 
-A condition that terminates well is the acceptance-check skill from this page taken
-seriously: one measurable end state, the command that proves it (so the result lands
-in the transcript, which is all the evaluator can see), the constraints that must
-hold on the way, and a bound such as *"or stop after 15 turns"*. `/goal` with no
-argument shows the running condition, turn count, and token spend.
+A good condition has the same parts as an acceptance check: one measurable end
+state, the command that proves it — the evaluator only sees what appears in the
+conversation, so the proof has to be run there — any constraints that must hold, and
+a limit such as *"or stop after 15 turns"*. `/goal` with no argument shows the
+condition, the turn count, and the tokens spent so far.
 
 :::{warning}
-Leave `/goal` until you have real experience with the rest of this page. It runs many
-turns with no human review between them: a vague condition can burn a large number
-of tokens producing work you then discard, and writing conditions that terminate is a
-skill of its own. Start with goals bounded by a turn limit, on work where the check
-is a command — and remember that achieving the goal is not the same as the work being
-right: the {doc}`verification habits <using_ai_well>` still apply to the result.
+Try `/goal` only once the rest of this page is routine for you. It runs many turns
+with no human review in between: a vague condition can spend a lot of tokens on work
+you end up discarding, and writing conditions that finish is a skill in itself. Keep
+a turn limit in the condition, and use it on work where the check is a command. A
+met goal does not mean the result is right — you still check it
+({doc}`Using AI well <using_ai_well>`).
 :::
