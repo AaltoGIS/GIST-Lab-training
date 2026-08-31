@@ -9,7 +9,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 project = "GIST Lab Training"
 author = "Henrikki Tenkanen"
 current_year = datetime.now().year
-copyright = f"{current_year}, Henrikki Tenkanen"
+copyright = f"{current_year}, Henrikki Tenkanen. Helpers: Claude and Codex."
 
 extensions = [
     "sphinx.ext.mathjax",
@@ -32,6 +32,11 @@ html_theme = "pydata_sphinx_theme"
 html_title = "GIST Lab Training"
 
 html_theme_options = {
+    # GIST Lab logo in the navbar; the dark variant has the wordmark in white.
+    "logo": {
+        "image_light": "_static/GIST_Lab_logo_transparent.png",
+        "image_dark": "_static/GIST_Lab_logo_dark.png",
+    },
     # The top navbar is driven by the root toctree in index.rst.
     "header_links_before_dropdown": 4,
     "icon_links": [

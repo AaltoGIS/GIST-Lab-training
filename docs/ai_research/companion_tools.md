@@ -1,13 +1,13 @@
 # Useful companion tools
 
+Claude Code is not the only AI tool worth knowing. A few others fit specific parts of
+research work. All of them change quickly, so treat the details below as a starting
+point; each tool's own page, linked below, has the current version.
+
 ```{image} /_static/comic-companion_tools.svg
 :alt: Comic illustrating the “Useful companion tools” section.
 :width: 100%
 ```
-
-Claude Code is not the only AI tool worth knowing. A few others fit specific parts of
-research work. All of them change quickly, so treat the details below as a starting
-point; each tool's own page, linked below, has the current version.
 
 ## Claude for Word
 

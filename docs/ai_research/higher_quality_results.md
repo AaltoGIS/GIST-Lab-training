@@ -1,15 +1,15 @@
 # Higher-quality results
 
-```{image} /_static/comic-higher_quality_results.svg
-:alt: Comic illustrating the “Higher-quality results” section.
-:width: 100%
-```
-
 Using AI well means checking its output ({doc}`Using AI well <using_ai_well>`). This
 page is about how — the concrete methods that turn "it looks right" into "I have
 reason to trust it." Two things do the work: real validation, and review. The order
 matters: validation is how you get evidence the result is right; review, including a
 second AI model, only helps you find problems.
+
+```{image} /_static/comic-higher_quality_results.svg
+:alt: Comic illustrating the “Higher-quality results” section.
+:width: 100%
+```
 
 ## Validate against something independent
 

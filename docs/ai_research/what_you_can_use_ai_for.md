@@ -6,7 +6,7 @@ across so much of what you do. They are not a superintelligence, and won't be fo
 a long time, so treat them as a capable text tool rather than a mind — you bring
 the question and the judgment; they extend how much you can attempt.
 
-This page maps where they help. You already use some of these; the aim is to see
+This training maps where they can help you with your research. You already use some of these; the aim is to see
 the full range — and, further down, what changes once a tool becomes an *agent*
 that can act on its own.
 
@@ -28,8 +28,25 @@ for a review.
 files, docstrings, emails, cover and response letters — and **translate or polish**
 English when it is not your first language.
 
-**Literature.** Summarize a dense paper, triage a stack of PDFs, or get a plain
-explanation of an unfamiliar method before you commit time to it.
+**Feedback.** Have a draft critiqued before anyone else sees it: the argument, the
+evidence, the structure, the places a reviewer would push back. The lab's reviewing
+skills do exactly this, in a supervisor's voice ({doc}`Skills <skills>`); the habits
+for using such feedback well are in
+{doc}`Higher-quality results <higher_quality_results>`.
+
+**Finding literature.** Find papers you would have missed: a new class of AI search tools
+takes a research question rather than a keyword string and explains what each result
+contributes — [Google Scholar Labs](https://scholar.google.com/scholar_labs/search)
+(experimental), [Asta](https://asta.allen.ai/) from Ai2,
+[alphaXiv](https://www.alphaxiv.org/), and
+[LeapSpace](https://www.elsevier.com/products/leapspace)
+({doc}`see Useful companion tools <companion_tools>`). 
+
+**Reading and learning.** Then work with what you found — and not only by reading,
+because you can now **discuss with your papers**: ask a PDF, or your whole reference
+library, a question and get an answer grounded in the text.
+Summarize a dense paper, triage a stack of PDFs, or get a plain explanation of an
+unfamiliar method before you commit time to it.
 
 **Analysis.** Talk through an analysis plan, sketch a figure, interpret an
 unexpected result, or check your reasoning against a different approach.

@@ -1,6 +1,6 @@
 # Using AI well
 
-You already use AI tools in your research. This page is about using them *well* —
+You already use AI tools in your research. This training is about using them *well* —
 so that they raise the quality of your work, not just the speed of it. The test is
 whether the result is better, not whether it came faster.
 

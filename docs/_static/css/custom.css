@@ -12,3 +12,8 @@
 .bd-article-container li {
   line-height: 1.6;
 }
+
+/* GIST Lab logo ~15% larger: give the image more of the header height */
+.navbar-brand {
+  padding: 0.275rem 0;
+}

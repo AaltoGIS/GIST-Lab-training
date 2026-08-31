@@ -1,0 +1,22 @@
+{# Override of pydata-sphinx-theme's sidebar-nav-bs.html: title the sidebar
+   after the current top-level section instead of "Section Navigation". #}
+{%- set section_titles = {
+  "ai_research": "AI for Research",
+  "testing_packaging": "Testing & Packaging",
+} -%}
+{%- set nav_title = section_titles.get(pagename.split("/")[0], _("Section Navigation")) -%}
+<nav class="bd-docs-nav bd-links"
+     aria-label="{{ nav_title }}">
+  <p class="bd-links__title" role="heading" aria-level="1">{{ nav_title }}</p>
+  <div class="bd-toc-item navbar-nav">
+    {{- generate_toctree_html(
+      "sidebar",
+      show_nav_level=theme_show_nav_level | int,
+      maxdepth=theme_navigation_depth | int,
+      collapse=theme_collapse_navigation | tobool,
+      includehidden=theme_sidebar_includehidden | tobool,
+      titles_only=True
+      )
+    -}}
+  </div>
+</nav>
