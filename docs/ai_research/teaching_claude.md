@@ -1,13 +1,13 @@
 # Teaching Claude who you are
 
+An agent that knows who you are, what you are working on, and how you like to work
+needs far less steering and makes fewer wrong assumptions. It is worth telling it
+once, rather than repeating yourself in every session.
+
 ```{image} /_static/comic-teaching_claude.svg
 :alt: Comic illustrating the “Teaching Claude who you are” section.
 :width: 100%
 ```
-
-An agent that knows who you are, what you are working on, and how you like to work
-needs far less steering and makes fewer wrong assumptions. It is worth telling it
-once, rather than repeating yourself in every session.
 
 ## The baseline: `CLAUDE.md` and memory
 

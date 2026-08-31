@@ -3,7 +3,7 @@
 Claude Code is the coding agent this half of the theme is mostly about. You can run
 it in more than one place; which one to use depends on the work.
 
-## Where to run it
+## Where to run it?
 
 **In the terminal.** The command-line version runs where your code lives. It is the
 most direct way to use Claude Code on a real project — point it at a repository and

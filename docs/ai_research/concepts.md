@@ -1,11 +1,6 @@
 # Concepts and terminology
 
-```{image} /_static/comic-concepts.svg
-:alt: Comic illustrating the “Concepts and terminology” section.
-:width: 100%
-```
-
-This half of the theme uses a handful of terms repeatedly. Here is what they mean;
+In the materials we use a handful of terms repeatedly. Here is what they mean;
 the pages that follow go into each.
 
 **Model.** The AI itself — for example, Claude. Models differ in how capable, fast,
