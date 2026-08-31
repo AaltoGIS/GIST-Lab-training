@@ -110,8 +110,8 @@ it does the legwork within them. This is the method the
 
 For work with a clear, checkable end state, the
 [`/goal` command](https://code.claude.com/docs/en/goal) lets Claude continue on its
-own. You give a completion condition; after each turn, a small fast model checks
-whether it holds, and Claude keeps going until the condition is met, judged
+own. You give Claude a completion condition, and after each turn, a small fast model checks
+whether it holds. Claude keeps going until the condition is met, judged
 impossible, or you run `/goal clear`.
 
 ```text
