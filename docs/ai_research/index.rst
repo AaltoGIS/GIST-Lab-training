@@ -29,7 +29,7 @@ order.
     what_you_can_use_ai_for
 
 .. toctree::
-    :caption: Using AI responsibly and for quality
+    :caption: Principles
     :maxdepth: 1
 
     using_ai_well
@@ -38,16 +38,26 @@ order.
     reproducibility
 
 .. toctree::
-    :caption: Working with Claude Code
+    :caption: Getting set up
     :maxdepth: 1
 
     concepts
     getting_started
     teaching_claude
     rules_and_safety
+
+.. toctree::
+    :caption: Using AI efficiently
+    :maxdepth: 1
+
     how_we_work
     higher_quality_results
     skills
+
+.. toctree::
+    :caption: Tools and resources
+    :maxdepth: 1
+
     companion_tools
     learning_more
 
