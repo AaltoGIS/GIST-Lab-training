@@ -1,7 +1,7 @@
 # 4. Do a real, well-scoped task
 
 Take one small, well-scoped task from your project and set it up with the
-task-context method ({doc}`Efficient prompting strategies </ai_research/how_we_work>`):
+task-context method ({doc}`Efficient prompting strategies </ai_research/prompting-strategies>`):
 goal, the inputs
 that matter, constraints, expected output, and acceptance checks.
 

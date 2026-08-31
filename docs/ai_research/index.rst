@@ -50,7 +50,7 @@ order.
     :caption: Using AI efficiently
     :maxdepth: 1
 
-    how_we_work
+    prompting-strategies
     higher_quality_results
     skills
 
