@@ -1,0 +1,107 @@
+<svg width="720" height="340" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-labelledby="TEACHING-title TEACHING-desc">
+  <title id="TEACHING-title">Teaching an AI agent who you are</title>
+  <desc id="TEACHING-desc">A researcher repeatedly introduces herself to a forgetful agent, then gives it a short context file and the agent remembers her GIS preferences.</desc>
+  <defs>
+    <style>
+      .TEACHING-panel{stroke:#1e292e;stroke-width:5;fill:#f5fbfa}
+      .TEACHING-ink{stroke:#1e292e;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .TEACHING-thin{stroke:#1e292e;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+      .TEACHING-teal{fill:#28a6a6}.TEACHING-blue{fill:#568fd3}.TEACHING-orange{fill:#f39a48}
+      .TEACHING-skin{fill:#c9825b}.TEACHING-hair{fill:#49372f}.TEACHING-white{fill:#fff}
+      .TEACHING-paper{fill:#fffdf3}.TEACHING-muted{fill:#dceceb}.TEACHING-dark{fill:#1e292e}
+      .TEACHING-balloon{fill:#fff;stroke:#1e292e;stroke-width:3}
+      .TEACHING-text{font-family:"Trebuchet MS",Arial,sans-serif;font-size:17px;font-weight:700;fill:#1e292e}
+      .TEACHING-small{font-family:"Trebuchet MS",Arial,sans-serif;font-size:13px;font-weight:700;fill:#1e292e}
+      .TEACHING-tiny{font-family:"Trebuchet MS",Arial,sans-serif;font-size:11px;font-weight:700;fill:#1e292e}
+      .TEACHING-worry{fill:none;stroke:#1e292e;stroke-width:3;stroke-linecap:round}
+    </style>
+  </defs>
+
+  <rect class="TEACHING-panel" x="6" y="6" width="348" height="328" rx="10"/>
+  <rect class="TEACHING-panel" x="366" y="6" width="348" height="328" rx="10"/>
+
+  <!-- Panel 1 -->
+  <g id="TEACHING-panel-one">
+    <path class="TEACHING-muted TEACHING-thin" d="M10 268 Q88 242 170 266 T351 260 L351 330 L10 330Z"/>
+    <rect class="TEACHING-paper TEACHING-ink" x="207" y="199" width="125" height="75" rx="5"/>
+    <path class="TEACHING-thin" fill="none" d="M220 218h95M220 232h77M220 246h88M220 260h56"/>
+    <text class="TEACHING-tiny" x="217" y="192">INTRO, SESSION 14</text>
+
+    <!-- Researcher -->
+    <path class="TEACHING-hair TEACHING-ink" d="M64 126q7-43 43-41 39 2 42 46l-13 31H74Z"/>
+    <circle class="TEACHING-skin TEACHING-ink" cx="107" cy="130" r="35"/>
+    <path class="TEACHING-hair" d="M76 118q14-36 60-16l9 25q-17-6-27-22-15 17-42 18Z"/>
+    <circle class="TEACHING-dark" cx="96" cy="132" r="3.5"/>
+    <circle class="TEACHING-dark" cx="121" cy="132" r="3.5"/>
+    <path class="TEACHING-worry" d="M99 149q10-8 20 0"/>
+    <path class="TEACHING-orange TEACHING-ink" d="M67 179q39-23 80 0l13 102H51Z"/>
+    <path class="TEACHING-skin TEACHING-ink" d="M148 196q28 8 54 31l-12 17q-31-18-54-26Z"/>
+    <path class="TEACHING-thin" fill="none" d="M76 281l-8 43M139 281l9 43"/>
+    <path class="TEACHING-thin" fill="none" d="M87 108q-13-8-20-3M133 106q10-6 18 0"/>
+
+    <!-- Forgetful agent -->
+    <rect class="TEACHING-blue TEACHING-ink" x="235" y="87" width="79" height="73" rx="18"/>
+    <line class="TEACHING-ink" x1="274" y1="87" x2="274" y2="73"/>
+    <circle class="TEACHING-orange TEACHING-ink" cx="274" cy="67" r="7"/>
+    <circle class="TEACHING-white TEACHING-thin" cx="257" cy="118" r="9"/>
+    <circle class="TEACHING-white TEACHING-thin" cx="292" cy="118" r="9"/>
+    <circle class="TEACHING-dark" cx="259" cy="119" r="3"/>
+    <circle class="TEACHING-dark" cx="294" cy="119" r="3"/>
+    <path class="TEACHING-thin" fill="none" d="M260 143q15-9 29 0"/>
+    <rect class="TEACHING-teal TEACHING-ink" x="247" y="160" width="55" height="75" rx="12"/>
+    <path class="TEACHING-ink" fill="none" d="M247 181l-26 26M302 181l23 16"/>
+    <path class="TEACHING-ink" fill="none" d="M258 235l-8 42M291 235l9 42"/>
+
+    <path class="TEACHING-balloon" d="M24 25h190q12 0 12 12v47q0 12-12 12h-64l-20 20 5-20H24q-12 0-12-12V37q0-12 12-12Z"/>
+    <text class="TEACHING-text" x="28" y="51" font-size="14px">I'm a spatial-data PhD.</text>
+    <text class="TEACHING-text" x="28" y="76" font-size="14px">Again.</text>
+
+    <path class="TEACHING-balloon" d="M231 27h101q10 0 10 10v31q0 10-10 10h-27l-15 13 3-13h-62q-10 0-10-10V37q0-10 10-10Z"/>
+    <text class="TEACHING-text" x="243" y="49" font-size="14px">
+      <tspan x="243" dy="0">And you</tspan>
+      <tspan x="243" dy="16">are...?</tspan>
+    </text>
+  </g>
+
+  <!-- Panel 2 -->
+  <g id="TEACHING-panel-two">
+    <path class="TEACHING-muted TEACHING-thin" d="M370 268 Q445 246 520 268 T711 258 L711 330 L370 330Z"/>
+
+    <!-- Short context card -->
+    <rect class="TEACHING-paper TEACHING-ink" x="386" y="93" width="99" height="125" rx="7"/>
+    <rect class="TEACHING-teal" x="386" y="93" width="99" height="30" rx="7"/>
+    <text class="TEACHING-small" x="395" y="114">CLAUDE.md</text>
+    <path class="TEACHING-thin" fill="none" d="M399 140h73M399 157h62M399 174h69M399 191h49"/>
+    <path class="TEACHING-orange TEACHING-thin" d="M461 205l7 7 13-19" fill="none"/>
+
+    <!-- Happy agent -->
+    <rect class="TEACHING-blue TEACHING-ink" x="504" y="100" width="78" height="70" rx="18"/>
+    <line class="TEACHING-ink" x1="543" y1="100" x2="543" y2="87"/>
+    <circle class="TEACHING-orange TEACHING-ink" cx="543" cy="81" r="7"/>
+    <circle class="TEACHING-white TEACHING-thin" cx="526" cy="129" r="9"/>
+    <circle class="TEACHING-white TEACHING-thin" cx="560" cy="129" r="9"/>
+    <circle class="TEACHING-dark" cx="528" cy="129" r="3"/>
+    <circle class="TEACHING-dark" cx="562" cy="129" r="3"/>
+    <path class="TEACHING-thin" fill="none" d="M526 150q17 13 33 0"/>
+    <rect class="TEACHING-teal TEACHING-ink" x="516" y="170" width="55" height="70" rx="12"/>
+    <path class="TEACHING-ink" fill="none" d="M516 189l-25-5M571 190l29 19"/>
+    <path class="TEACHING-ink" fill="none" d="M528 240l-8 42M559 240l9 42"/>
+
+    <!-- Relaxed researcher with map -->
+    <path class="TEACHING-hair TEACHING-ink" d="M621 160q5-35 34-34 32 2 34 38l-10 24h-51Z"/>
+    <circle class="TEACHING-skin TEACHING-ink" cx="655" cy="164" r="28"/>
+    <path class="TEACHING-hair" d="M630 154q12-29 48-12l7 20q-14-5-22-17-12 13-33 14Z"/>
+    <circle class="TEACHING-dark" cx="647" cy="166" r="3"/>
+    <circle class="TEACHING-dark" cx="666" cy="166" r="3"/>
+    <path class="TEACHING-thin" fill="none" d="M647 179q10 8 19 0"/>
+    <path class="TEACHING-orange TEACHING-ink" d="M625 202q31-18 62 0l8 85h-79Z"/>
+    <rect class="TEACHING-white TEACHING-ink" x="592" y="220" width="72" height="56" rx="4"/>
+    <path class="TEACHING-blue TEACHING-thin" d="M599 257q11-28 23-13t14-11q9-13 22 8v29h-59Z"/>
+    <path class="TEACHING-teal TEACHING-thin" d="M602 230l17 9 16-10 24 10" fill="none"/>
+    <circle class="TEACHING-orange" cx="638" cy="243" r="5"/>
+
+    <path class="TEACHING-balloon" d="M482 22h213q11 0 11 11v48q0 11-11 11h-92l-21 21 5-21H482q-11 0-11-11V33q0-11 11-11Z"/>
+    <text class="TEACHING-text" x="493" y="49" font-size="14px">EPSG:3067. No Mercator.</text>
+    <text class="TEACHING-text" x="493" y="75" font-size="14px">I remembered.</text>
+  </g>
+</svg>

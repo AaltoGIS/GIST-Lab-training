@@ -1,0 +1,95 @@
+<svg width="360" height="340" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 340" role="img" aria-label="A researcher asks for one spatial buffer while an AI agent delegates it to several subagents.">
+  <defs>
+    <style>
+      .CONCEPTS-panel{fill:#fff9ef;stroke:#1e292e;stroke-width:6}
+      .CONCEPTS-ink{fill:none;stroke:#1e292e;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .CONCEPTS-thin{fill:none;stroke:#1e292e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+      .CONCEPTS-grid{fill:none;stroke:#c9dcdd;stroke-width:1.5}
+      .CONCEPTS-paper{fill:#fff;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-skin{fill:#d99567;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-hair{fill:#49352d;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-blue{fill:#3d7ea6;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-teal{fill:#2a9d8f;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-orange{fill:#f4a261;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-robot{fill:#dcebed;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-balloon{fill:#fff;stroke:#1e292e;stroke-width:3}
+      .CONCEPTS-buffer1{fill:none;stroke:#f4a261;stroke-width:4;stroke-dasharray:7 5}
+      .CONCEPTS-buffer2{fill:none;stroke:#3d7ea6;stroke-width:4;stroke-dasharray:7 5}
+      .CONCEPTS-buffer3{fill:none;stroke:#2a9d8f;stroke-width:4;stroke-dasharray:7 5}
+      .CONCEPTS-text{font-family:"Trebuchet MS",Arial,sans-serif;font-size:18px;font-weight:700;fill:#1e292e}
+      .CONCEPTS-small{font-family:"Trebuchet MS",Arial,sans-serif;font-size:11px;font-weight:700;fill:#1e292e}
+    </style>
+  </defs>
+
+  <rect class="CONCEPTS-panel" x="4" y="4" width="352" height="332" rx="13"/>
+
+  <path class="CONCEPTS-balloon" d="M19 19h146q10 0 10 10v40q0 10-10 10H87l-18 17 3-17H19Q9 79 9 69V29q0-10 10-10z"/>
+  <text class="CONCEPTS-text" x="25" y="43">
+    <tspan x="25" dy="0">I asked for</tspan>
+    <tspan x="25" dy="22">one buffer.</tspan>
+  </text>
+
+  <path class="CONCEPTS-balloon" d="M205 19h130q10 0 10 10v40q0 10-10 10h-39l5 17-20-17h-76q-10 0-10-10V29q0-10 10-10z"/>
+  <text class="CONCEPTS-text" x="214" y="43">
+    <tspan x="214" dy="0">We’re</tspan>
+    <tspan x="214" dy="22">parallelizing.</tspan>
+  </text>
+
+  <!-- Researcher -->
+  <path class="CONCEPTS-blue" d="M27 172q4-38 31-42 27 4 32 42z"/>
+  <circle class="CONCEPTS-skin" cx="58" cy="119" r="22"/>
+  <path class="CONCEPTS-hair" d="M37 119q-2-25 22-25 22 0 22 24-10-11-30-8-4 10-14 9z"/>
+  <circle cx="51" cy="119" r="2.4" fill="#1e292e"/>
+  <circle cx="67" cy="119" r="2.4" fill="#1e292e"/>
+  <path class="CONCEPTS-thin" d="M51 130q8 6 16-1"/>
+  <path class="CONCEPTS-skin" d="M74 146q22 12 35 31l-11 7q-16-17-35-24z"/>
+  <path class="CONCEPTS-ink" d="M105 178l20 8"/>
+
+  <!-- Agent foreman -->
+  <path class="CONCEPTS-orange" d="M270 173q4-36 31-40 25 4 30 40z"/>
+  <rect class="CONCEPTS-robot" x="279" y="98" width="44" height="38" rx="12"/>
+  <path class="CONCEPTS-ink" d="M301 98V88m-7 0h14"/>
+  <circle cx="291" cy="116" r="3" fill="#1e292e"/>
+  <circle cx="311" cy="116" r="3" fill="#1e292e"/>
+  <path class="CONCEPTS-thin" d="M292 126q9 6 18 0"/>
+  <rect class="CONCEPTS-paper" x="300" y="143" width="33" height="43" rx="3" transform="rotate(7 316 165)"/>
+  <path class="CONCEPTS-thin" d="M307 154l18 2m-19 7l18 2m-19 7l12 2"/>
+  <path class="CONCEPTS-robot" d="M281 150q-17 15-27 29l10 7q13-12 25-21z"/>
+
+  <!-- Shared map -->
+  <rect class="CONCEPTS-paper" x="31" y="183" width="298" height="134" rx="7"/>
+  <path class="CONCEPTS-grid" d="M81 184v132m50-132v132m50-132v132m50-132v132m50-132v132M32 216h296M32 250h296M32 284h296"/>
+  <path d="M43 204q31 22 49 8t34 9q13 16 34 4" fill="none" stroke="#8dc9d0" stroke-width="7" stroke-linecap="round"/>
+  <path d="M245 288q25-20 69-11" fill="none" stroke="#8dc9d0" stroke-width="7" stroke-linecap="round"/>
+
+  <circle class="CONCEPTS-buffer3" cx="181" cy="254" r="64"/>
+  <circle class="CONCEPTS-buffer2" cx="181" cy="254" r="45"/>
+  <circle class="CONCEPTS-buffer1" cx="181" cy="254" r="27"/>
+  <path class="CONCEPTS-orange" d="M181 236c-9 0-16 7-16 16 0 12 16 27 16 27s16-15 16-27c0-9-7-16-16-16z"/>
+  <circle cx="181" cy="251" r="5" fill="#fff" stroke="#1e292e" stroke-width="2"/>
+
+  <!-- Three tiny subagents -->
+  <g>
+    <rect class="CONCEPTS-robot" x="95" y="228" width="27" height="22" rx="7"/>
+    <circle cx="103" cy="239" r="2" fill="#1e292e"/>
+    <circle cx="115" cy="239" r="2" fill="#1e292e"/>
+    <path class="CONCEPTS-teal" d="M98 250h22l5 29H93z"/>
+    <path class="CONCEPTS-thin" d="M94 259l-12 10m40-10l12 4"/>
+    <path class="CONCEPTS-ink" d="M80 269l9-3"/>
+  </g>
+  <g>
+    <rect class="CONCEPTS-robot" x="240" y="220" width="27" height="22" rx="7"/>
+    <circle cx="248" cy="231" r="2" fill="#1e292e"/>
+    <circle cx="260" cy="231" r="2" fill="#1e292e"/>
+    <path class="CONCEPTS-blue" d="M243 242h22l5 29h-32z"/>
+    <path class="CONCEPTS-thin" d="M240 252l-12 9m39-8l12 11"/>
+    <path class="CONCEPTS-ink" d="M225 263l9-6"/>
+  </g>
+  <g>
+    <rect class="CONCEPTS-robot" x="169" y="281" width="27" height="21" rx="7"/>
+    <circle cx="177" cy="291" r="2" fill="#1e292e"/>
+    <circle cx="189" cy="291" r="2" fill="#1e292e"/>
+    <path class="CONCEPTS-orange" d="M172 302h22l3 13h-28z"/>
+    <path class="CONCEPTS-thin" d="M170 306l-12-3m38 3l12-4"/>
+  </g>
+</svg>

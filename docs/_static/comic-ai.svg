@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="aiTitle aiDesc">
+  <title id="aiTitle">Responsible and efficient use of AI for research</title>
+  <desc id="aiDesc">A three-panel comic about an AI inventing a nonexistent academic reference.</desc>
+  <defs>
+    <linearGradient id="aiWall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#eef5f4"/>
+    </linearGradient>
+    <linearGradient id="aiScreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#dff6ff"/>
+      <stop offset="1" stop-color="#b8ddf0"/>
+    </linearGradient>
+    <filter id="aiShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="1.5" dy="2.5" stdDeviation="2" flood-color="#19313b" flood-opacity=".22"/>
+    </filter>
+    <style>
+      .ai-panel{fill:url(#aiWall);stroke:#17262d;stroke-width:4;stroke-linejoin:round}
+      .ai-ink{stroke:#17262d;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .ai-thin{stroke:#17262d;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+      .ai-balloon{fill:#fff;stroke:#17262d;stroke-width:3;stroke-linejoin:round;filter:url(#aiShadow)}
+      .ai-talk{font-family:"Trebuchet MS",Arial,sans-serif;font-size:15px;font-weight:700;fill:#17262d;text-anchor:middle}
+      .ai-small{font-family:"Trebuchet MS",Arial,sans-serif;font-size:12px;font-weight:700;fill:#17262d}
+      .ai-caption{font-family:Georgia,"Times New Roman",serif;font-size:19px;font-weight:700;font-style:italic;fill:#17262d;text-anchor:middle}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="360" rx="10" fill="#fffefb"/>
+  <rect class="ai-panel" x="12" y="12" width="282" height="305" rx="3"/>
+  <rect class="ai-panel" x="309" y="12" width="282" height="305" rx="3"/>
+  <rect class="ai-panel" x="606" y="12" width="282" height="305" rx="3"/>
+
+  <!-- PANEL 1 -->
+  <path d="M16 251 Q83 237 147 247 T290 243 L290 313 L16 313Z" fill="#dce9e2"/>
+  <path d="M32 263 H275" stroke="#b7cbc0" stroke-width="2"/>
+  <rect x="34" y="40" width="207" height="58" rx="25" class="ai-balloon"/>
+  <path d="M177 92 Q184 110 168 124 Q197 111 204 94Z" class="ai-balloon"/>
+  <text class="ai-talk" x="137" y="65">
+    <tspan x="137">“Write my related-work</tspan>
+    <tspan x="137" dy="19">section.”</tspan>
+  </text>
+
+  <!-- Researcher chair -->
+  <path d="M85 216 Q70 215 69 231 L70 283" fill="none" class="ai-ink"/>
+  <path d="M70 267 H117 L113 288 M74 267 L66 289" fill="none" class="ai-ink"/>
+  <!-- Researcher torso and arm -->
+  <path d="M133 187 Q104 181 91 201 Q84 219 91 251 L155 251 Q160 216 151 199 Q145 189 133 187Z" fill="#e16d5b" class="ai-ink"/>
+  <path d="M143 202 Q164 210 181 225 L172 237 Q149 226 129 215" fill="#e16d5b" class="ai-ink"/>
+  <path d="M171 225 q12-2 17 6 q-8 11-19 5" fill="#e8ad82" class="ai-ink"/>
+  <!-- Neck -->
+  <path d="M116 182 L116 193 Q125 201 135 192 L134 177Z" fill="#e8ad82" class="ai-ink"/>
+  <!-- Head and hair -->
+  <ellipse cx="125" cy="157" rx="34" ry="35" fill="#e8ad82" class="ai-ink"/>
+  <path d="M92 156 Q91 124 120 119 Q151 115 160 143 Q147 136 136 128 Q124 142 96 143Z" fill="#49372f" class="ai-ink"/>
+  <path d="M95 152 Q87 147 88 158 Q89 169 99 170" fill="#e8ad82" class="ai-thin"/>
+  <!-- Face -->
+  <path d="M107 153 q5-5 11 0 M135 152 q5-5 11 0" fill="none" class="ai-thin"/>
+  <circle cx="113" cy="154" r="2.2" fill="#17262d"/>
+  <circle cx="141" cy="153" r="2.2" fill="#17262d"/>
+  <path d="M127 156 l-3 9 6 1 M115 173 Q126 180 139 171" fill="none" class="ai-thin"/>
+  <!-- Laptop and desk -->
+  <path d="M169 198 H255 Q260 198 258 204 L246 252 H155Z" fill="#506d79" class="ai-ink" filter="url(#aiShadow)"/>
+  <circle cx="207" cy="224" r="7" fill="#cfeaf1"/>
+  <path d="M208 218 l4 6-4 6-4-6Z" fill="#4f9ab0"/>
+  <rect x="136" y="251" width="139" height="10" rx="4" fill="#8d6a51" class="ai-ink"/>
+  <path d="M151 261 L145 302 M261 261 L269 302" class="ai-ink" fill="none"/>
+  <!-- Typing ticks -->
+  <path d="M184 187 l-4-10 M197 186 l2-11 M210 189 l7-9" stroke="#e1a323" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- PANEL 2 -->
+  <path d="M313 264 Q378 251 438 260 T587 254 L587 313 L313 313Z" fill="#e5ebf4"/>
+  <rect x="333" y="33" width="234" height="73" rx="29" class="ai-balloon"/>
+  <path d="M450 100 Q445 118 433 128 Q458 119 470 102Z" class="ai-balloon"/>
+  <text class="ai-talk" x="450" y="57">
+    <tspan x="450">“Sure! As shown by</tspan>
+    <tspan x="450" dy="20">Smith et al. (2021)...”</tspan>
+  </text>
+
+  <!-- AI monitor -->
+  <rect x="352" y="132" width="196" height="125" rx="10" fill="#405c68" class="ai-ink" filter="url(#aiShadow)"/>
+  <rect x="363" y="143" width="174" height="102" rx="5" fill="url(#aiScreen)" class="ai-thin"/>
+  <path d="M436 257 V275 M408 278 H475" class="ai-ink" fill="none"/>
+  <path d="M395 278 Q441 268 488 278 L494 287 H389Z" fill="#708793" class="ai-ink"/>
+  <!-- AI assistant face -->
+  <rect x="399" y="158" width="102" height="68" rx="24" fill="#f9fcff" class="ai-ink"/>
+  <path d="M450 158 V146 M443 145 H457" class="ai-ink" fill="none"/>
+  <circle cx="450" cy="142" r="5" fill="#edbd43" class="ai-thin"/>
+  <ellipse cx="427" cy="185" rx="9" ry="11" fill="#66b7ce" class="ai-thin"/>
+  <ellipse cx="474" cy="185" rx="9" ry="11" fill="#66b7ce" class="ai-thin"/>
+  <circle cx="427" cy="184" r="3" fill="#17262d"/>
+  <circle cx="474" cy="184" r="3" fill="#17262d"/>
+  <path d="M425 207 Q450 220 476 204" fill="none" class="ai-ink"/>
+  <path d="M394 178 l-11-5 M394 193 l-13 2 M506 178 l11-5 M506 193 l13 2" stroke="#66b7ce" stroke-width="3" stroke-linecap="round"/>
+  <!-- Confidence sparkles -->
+  <path d="M337 141 v18 M328 150 h18 M556 131 v16 M548 139 h16" stroke="#e2a923" stroke-width="3" stroke-linecap="round"/>
+  <path d="M338 175 l-6 8 M338 183 l-7-7 M558 169 l7 8 M566 169 l-8 8" stroke="#e2a923" stroke-width="2.5" stroke-linecap="round"/>
+  <text x="450" y="303" class="ai-small" text-anchor="middle" fill="#57717d">CONFIDENCE: 100%</text>
+
+  <!-- PANEL 3 -->
+  <path d="M610 260 Q682 248 744 258 T884 250 L884 313 L610 313Z" fill="#eee5dd"/>
+  <rect x="625" y="30" width="238" height="65" rx="28" class="ai-balloon"/>
+  <path d="M694 90 Q687 107 672 119 Q698 110 712 92Z" class="ai-balloon"/>
+  <text class="ai-talk" x="744" y="57">
+    <tspan x="744">“That reference</tspan>
+    <tspan x="744" dy="20">doesn’t exist.”</tspan>
+  </text>
+
+  <!-- Reviewer body -->
+  <path d="M645 206 Q650 181 681 180 Q709 181 716 211 L712 276 H640Z" fill="#506f9a" class="ai-ink"/>
+  <path d="M665 177 L665 189 Q677 197 687 187 L687 174Z" fill="#bf815f" class="ai-ink"/>
+  <ellipse cx="676" cy="150" rx="31" ry="34" fill="#bf815f" class="ai-ink"/>
+  <path d="M647 152 Q642 126 660 116 Q685 104 704 127 Q707 135 705 151 Q693 137 687 125 Q672 138 649 138Z" fill="#32343d" class="ai-ink"/>
+  <!-- Glasses and frown -->
+  <rect x="653" y="145" width="18" height="12" rx="5" fill="none" class="ai-thin"/>
+  <rect x="681" y="145" width="18" height="12" rx="5" fill="none" class="ai-thin"/>
+  <path d="M671 150 H681 M655 142 l13-3 M684 139 l13 3" fill="none" class="ai-thin"/>
+  <circle cx="662" cy="151" r="2" fill="#17262d"/>
+  <circle cx="690" cy="151" r="2" fill="#17262d"/>
+  <path d="M666 170 Q677 163 689 171" fill="none" class="ai-ink"/>
+  <!-- Reviewer arm and magnifying glass -->
+  <path d="M701 201 Q722 206 738 224" fill="none" stroke="#506f9a" stroke-width="17" stroke-linecap="round"/>
+  <path d="M736 222 L754 237" class="ai-ink" fill="none"/>
+  <circle cx="766" cy="247" r="19" fill="#cceaf2" fill-opacity=".5" stroke="#17262d" stroke-width="5"/>
+  <path d="M749 232 L737 220" stroke="#17262d" stroke-width="7" stroke-linecap="round"/>
+  <!-- Paper under magnifier -->
+  <path d="M715 237 L797 221 L808 278 L726 293Z" fill="#fff" class="ai-ink" filter="url(#aiShadow)"/>
+  <path d="M731 250 l53-10 M734 259 l44-8 M738 269 l36-7" stroke="#8b9ba3" stroke-width="2"/>
+  <path d="M752 247 l27 18 M779 247 l-23 19" stroke="#d34d4d" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Alarmed researcher -->
+  <path d="M804 208 Q818 188 842 191 Q867 196 875 221 L879 276 H817Z" fill="#e16d5b" class="ai-ink"/>
+  <path d="M830 187 L831 198 Q841 204 850 195 L851 182Z" fill="#e8ad82" class="ai-ink"/>
+  <ellipse cx="840" cy="159" rx="28" ry="32" fill="#e8ad82" class="ai-ink"/>
+  <path d="M813 156 Q811 127 837 124 Q860 122 869 145 Q855 137 847 130 Q837 141 814 142Z" fill="#49372f" class="ai-ink"/>
+  <path d="M822 153 l10-4 M849 149 l10 4" class="ai-thin" fill="none"/>
+  <ellipse cx="829" cy="158" rx="3.5" ry="5" fill="#17262d"/>
+  <ellipse cx="853" cy="158" rx="3.5" ry="5" fill="#17262d"/>
+  <ellipse cx="841" cy="176" rx="7" ry="9" fill="#fff" class="ai-thin"/>
+  <!-- Shock marks -->
+  <path d="M803 133 l-11-13 M808 125 l-2-17 M875 136 l10-13" stroke="#d34d4d" stroke-width="4" stroke-linecap="round"/>
+
+  <text class="ai-caption" x="450" y="344">You own the output — verify, don’t trust.</text>
+</svg>

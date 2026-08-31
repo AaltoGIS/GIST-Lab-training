@@ -1,0 +1,130 @@
+<svg width="720" height="680" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 680" role="img" aria-label="An AI confidently places Helsinki in Chile because the code ran without errors, prompting the researcher to verify the geography.">
+  <defs>
+    <style>
+      .USINGWELL-panel{fill:#fff9ef;stroke:#1e292e;stroke-width:6}
+      .USINGWELL-ink{fill:none;stroke:#1e292e;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+      .USINGWELL-thin{fill:none;stroke:#1e292e;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+      .USINGWELL-skin{fill:#d99567;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-hair{fill:#47342d;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-blue{fill:#3d7ea6;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-teal{fill:#2a9d8f;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-orange{fill:#f4a261;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-red{fill:#e76f51;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-robot{fill:#dcebed;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-paper{fill:#fff;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-balloon{fill:#fff;stroke:#1e292e;stroke-width:3}
+      .USINGWELL-map{fill:#8dc9d0;stroke:#1e292e;stroke-width:2;stroke-linejoin:round}
+      .USINGWELL-text{font-family:"Trebuchet MS",Arial,sans-serif;font-size:20px;font-weight:700;fill:#1e292e}
+      .USINGWELL-small{font-family:"Trebuchet MS",Arial,sans-serif;font-size:12px;font-weight:700;fill:#1e292e}
+    </style>
+  </defs>
+
+  <rect class="USINGWELL-panel" x="4" y="4" width="352" height="332" rx="13"/>
+  <rect class="USINGWELL-panel" x="364" y="4" width="352" height="332" rx="13"/>
+  <rect class="USINGWELL-panel" x="4" y="344" width="352" height="332" rx="13"/>
+  <rect class="USINGWELL-panel" x="364" y="344" width="352" height="332" rx="13"/>
+
+  <!-- Panel 1 -->
+  <path class="USINGWELL-balloon" d="M169 20h167q10 0 10 10v42q0 10-10 10h-42l4 17-20-17H169q-10 0-10-10V30q0-10 10-10z"/>
+  <text class="USINGWELL-text" x="181" y="56" font-size="16px">Analysis complete!</text>
+
+  <circle class="USINGWELL-skin" cx="64" cy="135" r="25"/>
+  <path class="USINGWELL-hair" d="M40 135q0-27 24-27 24 0 25 25-11-10-29-9-8 11-20 11z"/>
+  <circle cx="56" cy="137" r="2.5" fill="#1e292e"/>
+  <circle cx="72" cy="137" r="2.5" fill="#1e292e"/>
+  <path class="USINGWELL-thin" d="M56 148q8 4 16 0"/>
+  <path class="USINGWELL-blue" d="M31 280q3-105 33-120 32 15 35 120z"/>
+  <path class="USINGWELL-skin" d="M84 186q22 6 41 22l-8 12q-22-11-42-16z"/>
+
+  <rect class="USINGWELL-robot" x="278" y="109" width="51" height="45" rx="13"/>
+  <path class="USINGWELL-ink" d="M304 109V97m-8 0h16"/>
+  <circle cx="292" cy="131" r="3" fill="#1e292e"/>
+  <circle cx="315" cy="131" r="3" fill="#1e292e"/>
+  <path class="USINGWELL-thin" d="M291 142q12 8 24 0"/>
+  <path class="USINGWELL-orange" d="M268 278q2-118 36-124 34 6 39 124z"/>
+  <path class="USINGWELL-robot" d="M279 179q-20 8-32 23l9 11q15-9 32-13z"/>
+
+  <rect class="USINGWELL-paper" x="113" y="109" width="160" height="137" rx="4" transform="rotate(-3 193 177)"/>
+  <path class="USINGWELL-map" d="M129 144q19-19 46-16l17 13-11 15 12 14-17 15-20-8-13 13-18-14 9-17z"/>
+  <path class="USINGWELL-map" d="M210 136q27 3 43 21l-12 18 8 20-14 29-15-5 5-31-14-17z"/>
+  <path d="M228 202c-7 0-12 5-12 12 0 9 12 20 12 20s12-11 12-20c0-7-5-12-12-12z" fill="#e76f51" stroke="#1e292e" stroke-width="2"/>
+  <circle cx="228" cy="213" r="3.5" fill="#fff"/>
+  <text class="USINGWELL-small" x="178" y="199" transform="rotate(-3 193 177)">HELSINKI</text>
+  <path class="USINGWELL-ink" d="M16 292h328"/>
+
+  <!-- Panel 2 -->
+  <path class="USINGWELL-balloon" d="M382 20h314q10 0 10 10v43q0 10-10 10H481l-18 18 4-18h-85q-10 0-10-10V30q0-10 10-10z"/>
+  <text class="USINGWELL-text" x="394" y="57">Why is Helsinki in Chile?</text>
+
+  <circle class="USINGWELL-skin" cx="417" cy="138" r="31"/>
+  <path class="USINGWELL-hair" d="M387 137q1-34 31-34 29 1 30 33-13-15-37-12-10 12-24 13z"/>
+  <circle cx="407" cy="139" r="3" fill="#1e292e"/>
+  <circle cx="427" cy="139" r="3" fill="#1e292e"/>
+  <path class="USINGWELL-thin" d="M406 155q11-9 22 0"/>
+  <path class="USINGWELL-blue" d="M377 310q3-143 40-141 40-2 44 141z"/>
+  <path class="USINGWELL-skin" d="M447 188q28 1 50 17l-7 13q-24-10-49-10z"/>
+
+  <rect class="USINGWELL-paper" x="479" y="105" width="211" height="171" rx="5"/>
+  <path class="USINGWELL-map" d="M504 135q31-23 70-7l18 20-20 20 18 20-22 19-29-13-17 15-27-21 15-21z"/>
+  <path class="USINGWELL-map" d="M602 128q39 4 65 34l-18 25 12 26-21 44-20-7 7-45-18-25z"/>
+  <path d="M639 220c-9 0-16 7-16 16 0 12 16 28 16 28s16-16 16-28c0-9-7-16-16-16z" fill="#e76f51" stroke="#1e292e" stroke-width="3"/>
+  <circle cx="639" cy="235" r="5" fill="#fff"/>
+  <text class="USINGWELL-small" x="574" y="216">HELSINKI</text>
+  <path class="USINGWELL-ink" d="M491 283h187"/>
+
+  <!-- Panel 3 -->
+  <path class="USINGWELL-balloon" d="M18 361h316q10 0 10 10v64q0 10-10 10h-71l8 19-24-19H18q-10 0-10-10v-64q0-10 10-10z"/>
+  <text class="USINGWELL-text" x="38" y="392">
+    <tspan x="38" dy="0">The code ran</tspan>
+    <tspan x="38" dy="25">without errors.</tspan>
+  </text>
+
+  <rect x="25" y="477" width="189" height="135" rx="8" fill="#24343d" stroke="#1e292e" stroke-width="4"/>
+  <path class="USINGWELL-thin" d="M26 501h187"/>
+  <circle cx="41" cy="489" r="4" fill="#f4a261"/>
+  <circle cx="55" cy="489" r="4" fill="#e9ce63"/>
+  <circle cx="69" cy="489" r="4" fill="#2a9d8f"/>
+  <path d="M75 555l25 25 55-63" fill="none" stroke="#79d296" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="USINGWELL-ink" d="M92 614v15m-35 0h105"/>
+
+  <rect class="USINGWELL-robot" x="263" y="486" width="55" height="48" rx="14"/>
+  <path class="USINGWELL-ink" d="M291 486v-13m-9 0h18"/>
+  <circle cx="278" cy="509" r="3" fill="#1e292e"/>
+  <circle cx="303" cy="509" r="3" fill="#1e292e"/>
+  <path class="USINGWELL-thin" d="M277 521q13 8 26 0"/>
+  <path class="USINGWELL-teal" d="M247 650q3-110 44-116 39 6 44 116z"/>
+  <path class="USINGWELL-robot" d="M262 559q-27 14-39 30l11 11q15-12 38-20z"/>
+  <path class="USINGWELL-robot" d="M318 557q18 10 25 28l-12 7q-10-12-23-18z"/>
+  <path class="USINGWELL-ink" d="M16 654h328"/>
+
+  <!-- Panel 4 -->
+  <path class="USINGWELL-balloon" d="M382 361h314q10 0 10 10v64q0 10-10 10h-87l5 19-22-19H382q-10 0-10-10v-64q0-10 10-10z"/>
+  <text class="USINGWELL-text" x="401" y="392" font-size="18px">
+    <tspan x="401" dy="0">Geography has</tspan>
+    <tspan x="401" dy="25">filed one.</tspan>
+  </text>
+
+  <circle class="USINGWELL-skin" cx="421" cy="518" r="27"/>
+  <path class="USINGWELL-hair" d="M395 518q1-29 27-29 26 0 27 28-14-12-34-9-8 10-20 10z"/>
+  <circle cx="412" cy="520" r="2.5" fill="#1e292e"/>
+  <circle cx="430" cy="520" r="2.5" fill="#1e292e"/>
+  <path class="USINGWELL-thin" d="M412 531q9 6 18 0"/>
+  <path class="USINGWELL-blue" d="M383 654q2-101 39-109 37 8 41 109z"/>
+  <path class="USINGWELL-skin" d="M444 565q31-12 54-37l11 10q-22 32-56 46z"/>
+
+  <rect class="USINGWELL-paper" x="482" y="497" width="91" height="116" rx="5" transform="rotate(7 527 555)"/>
+  <circle cx="527" cy="533" r="25" fill="#8dc9d0" stroke="#1e292e" stroke-width="3"/>
+  <path d="M510 519q11-9 23-3l7 8-7 8 4 10-12 8-12-8 4-10-10-5z" fill="#f2d184" stroke="#1e292e" stroke-width="2"/>
+  <path d="M531 511l4 8-6 4" fill="none" stroke="#e76f51" stroke-width="4" stroke-linecap="round"/>
+  <text class="USINGWELL-small" x="496" y="585" transform="rotate(7 527 555)">GROUND TRUTH</text>
+
+  <rect class="USINGWELL-robot" x="625" y="502" width="51" height="45" rx="13"/>
+  <path class="USINGWELL-ink" d="M650 502v-12m-8 0h16"/>
+  <circle cx="639" cy="524" r="3" fill="#1e292e"/>
+  <circle cx="662" cy="524" r="3" fill="#1e292e"/>
+  <path class="USINGWELL-thin" d="M639 538q11-8 22 0"/>
+  <path class="USINGWELL-orange" d="M608 654q3-101 42-107 38 6 43 107z"/>
+  <path d="M681 510q10 12 0 20-10-8 0-20z" fill="#8dc9d0" stroke="#1e292e" stroke-width="2"/>
+  <path class="USINGWELL-robot" d="M625 568q-22 13-34 29l11 10q15-12 33-20z"/>
+  <path class="USINGWELL-ink" d="M376 654h328"/>
+</svg>

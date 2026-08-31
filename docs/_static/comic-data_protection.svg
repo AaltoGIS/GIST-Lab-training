@@ -1,0 +1,96 @@
+<svg width="720" height="340" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" role="img" aria-label="Two-panel comic showing how an anonymous GPS trace can identify a person when sent to a third-party AI server">
+  <defs>
+    <style>
+      .DATAPROT-panel{stroke:#1e292e;stroke-width:5;stroke-linejoin:round}
+      .DATAPROT-ink{stroke:#1e292e;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .DATAPROT-thin{stroke:#1e292e;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+      .DATAPROT-skin{fill:#c9855b}
+      .DATAPROT-hair{fill:#4b352c}
+      .DATAPROT-teal{fill:#27a6a1}
+      .DATAPROT-blue{fill:#408ac9}
+      .DATAPROT-orange{fill:#f19a3e}
+      .DATAPROT-paper{fill:#fffdf8}
+      .DATAPROT-balloon{fill:#fff;stroke:#1e292e;stroke-width:3}
+      .DATAPROT-text{font-family:"Trebuchet MS",Arial,sans-serif;font-size:19px;font-weight:700;fill:#1e292e}
+      .DATAPROT-small{font-family:"Trebuchet MS",Arial,sans-serif;font-size:13px;font-weight:700;fill:#1e292e}
+      .DATAPROT-route{fill:none;stroke:#e85b4f;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:10 8}
+    </style>
+  </defs>
+
+  <!-- Panel 1 -->
+  <rect class="DATAPROT-panel" x="8" y="8" width="347" height="324" rx="8" fill="#eef8f6"/>
+  <ellipse cx="177" cy="303" rx="145" ry="15" fill="#cfe4e0"/>
+
+  <path class="DATAPROT-balloon" d="M25 24h284a12 12 0 0 1 12 12v51a12 12 0 0 1-12 12H189l-19 22-5-22H25A12 12 0 0 1 13 87V36a12 12 0 0 1 12-12z"/>
+  <text class="DATAPROT-text" x="167" y="55" text-anchor="middle">It's anonymous—</text>
+  <text class="DATAPROT-text" x="167" y="79" text-anchor="middle">just one GPS trace.</text>
+
+  <!-- Researcher -->
+  <circle cx="82" cy="163" r="34" class="DATAPROT-skin DATAPROT-ink"/>
+  <path d="M49 163q-2-45 35-45 34 0 34 38-18-4-31-22-9 20-38 29z" class="DATAPROT-hair DATAPROT-ink"/>
+  <circle cx="70" cy="165" r="3" fill="#1e292e"/>
+  <circle cx="94" cy="165" r="3" fill="#1e292e"/>
+  <path d="M71 181q11 8 23 0" fill="none" class="DATAPROT-thin"/>
+  <path d="M36 292q3-79 46-79t50 79z" class="DATAPROT-orange DATAPROT-ink"/>
+  <path d="M112 230l42 28M53 232l-22 30" fill="none" class="DATAPROT-ink"/>
+
+  <!-- Laptop -->
+  <rect x="143" y="167" width="168" height="106" rx="6" class="DATAPROT-blue DATAPROT-ink"/>
+  <rect x="154" y="178" width="146" height="82" rx="3" fill="#fffdf8"/>
+  <path d="M165 240c17-28 36-11 51-38s35 15 63-12" class="DATAPROT-route"/>
+  <circle cx="165" cy="240" r="7" fill="#27a6a1" class="DATAPROT-thin"/>
+  <circle cx="279" cy="190" r="7" fill="#f19a3e" class="DATAPROT-thin"/>
+  <path d="M132 273h191l17 18H116z" fill="#bdcbd2" class="DATAPROT-ink"/>
+  <rect x="248" y="225" width="40" height="24" rx="12" class="DATAPROT-teal DATAPROT-thin"/>
+  <text class="DATAPROT-small" x="268" y="242" text-anchor="middle" fill="#fff">SEND</text>
+
+  <!-- Data leaving -->
+  <path d="M310 178q24-19 33 8" fill="none" stroke="#66b9dd" stroke-width="5" stroke-dasharray="6 6"/>
+  <path d="M338 180l8 9-12 2" fill="#66b9dd" class="DATAPROT-thin"/>
+
+  <!-- Panel 2 -->
+  <rect class="DATAPROT-panel" x="365" y="8" width="347" height="324" rx="8" fill="#fff3e6"/>
+  <ellipse cx="540" cy="304" rx="147" ry="14" fill="#e7d9c7"/>
+
+  <!-- Third-party server -->
+  <rect x="531" y="42" width="158" height="221" rx="13" class="DATAPROT-blue DATAPROT-ink"/>
+  <rect x="547" y="60" width="126" height="43" rx="6" fill="#d9edf7" class="DATAPROT-thin"/>
+  <rect x="547" y="113" width="126" height="43" rx="6" fill="#d9edf7" class="DATAPROT-thin"/>
+  <rect x="547" y="166" width="126" height="76" rx="6" fill="#203941" class="DATAPROT-thin"/>
+  <circle cx="562" cy="81" r="6" fill="#27a6a1" class="DATAPROT-thin"/>
+  <circle cx="562" cy="134" r="6" fill="#f19a3e" class="DATAPROT-thin"/>
+  <path d="M578 81h76M578 134h76" class="DATAPROT-thin"/>
+  <circle cx="583" cy="192" r="15" fill="#fff" class="DATAPROT-thin"/>
+  <circle cx="637" cy="192" r="15" fill="#fff" class="DATAPROT-thin"/>
+  <circle cx="586" cy="194" r="5" fill="#1e292e"/>
+  <circle cx="634" cy="194" r="5" fill="#1e292e"/>
+  <path d="M584 221q26 14 52 0" fill="none" stroke="#fff" stroke-width="3"/>
+
+  <path class="DATAPROT-balloon" d="M445 22h209a12 12 0 0 1 12 12v43a12 12 0 0 1-12 12h-30l-12 23-10-23H445a12 12 0 0 1-12-12V34a12 12 0 0 1 12-12z"/>
+  <text class="DATAPROT-text" x="549" y="60" text-anchor="middle">Good morning, Mika.</text>
+
+  <!-- Route exposed as home-to-lab -->
+  <path d="M391 259c42-77 81 23 137-66" class="DATAPROT-route"/>
+  <g transform="translate(391 251)">
+    <path d="M-19 8v-27l19-17 19 17V8z" fill="#f19a3e" class="DATAPROT-ink"/>
+    <rect x="-6" y="-9" width="12" height="17" fill="#fffdf8" class="DATAPROT-thin"/>
+    <text class="DATAPROT-small" x="0" y="65" text-anchor="middle">HOME</text>
+  </g>
+  <g transform="translate(524 190)">
+    <rect x="-23" y="-32" width="46" height="42" class="DATAPROT-paper DATAPROT-ink"/>
+    <path d="M-7-32v-13H7v13M-14-20h8M6-20h8M-14-8h8M6-8h8" class="DATAPROT-thin"/>
+    <text class="DATAPROT-small" x="-10" y="30" text-anchor="middle">LAB</text>
+  </g>
+
+  <!-- Shocked researcher -->
+  <circle cx="433" cy="177" r="31" class="DATAPROT-skin DATAPROT-ink"/>
+  <path d="M403 176q-1-40 32-40 31 0 31 34-17-2-28-18-9 17-35 24z" class="DATAPROT-hair DATAPROT-ink"/>
+  <circle cx="422" cy="178" r="5" fill="#fff" class="DATAPROT-thin"/>
+  <circle cx="445" cy="178" r="5" fill="#fff" class="DATAPROT-thin"/>
+  <circle cx="422" cy="178" r="2" fill="#1e292e"/>
+  <circle cx="445" cy="178" r="2" fill="#1e292e"/>
+  <ellipse cx="433" cy="195" rx="7" ry="10" fill="#fff" class="DATAPROT-thin"/>
+  <path d="M397 299q3-75 37-75t42 75z" class="DATAPROT-teal DATAPROT-ink"/>
+  <path d="M406 238l-20-22M459 238l17-24" fill="none" class="DATAPROT-ink"/>
+  <path d="M386 216l-4-12M386 216l-12 2M476 214l4-12M476 214l12 2" fill="none" class="DATAPROT-thin"/>
+</svg>
