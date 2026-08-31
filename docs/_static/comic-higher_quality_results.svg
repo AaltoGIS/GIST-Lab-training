@@ -1,0 +1,152 @@
+<svg width="1080" height="340" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 340" role="img" aria-labelledby="HIGHERQ-title HIGHERQ-desc">
+  <title id="HIGHERQ-title">Independent validation beats AI agreement</title>
+  <desc id="HIGHERQ-desc">Two AI reviewers agree that a ferry trip takes four minutes. A researcher checks the real timetable, and the ferry arrives to dispute their conclusion.</desc>
+  <defs>
+    <style>
+      .HIGHERQ-panel{stroke:#1e292e;stroke-width:5;fill:#f7fbfa}
+      .HIGHERQ-ink{stroke:#1e292e;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .HIGHERQ-thin{stroke:#1e292e;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+      .HIGHERQ-dark{fill:#1e292e}.HIGHERQ-white{fill:#fff}.HIGHERQ-teal{fill:#2aa5a3}
+      .HIGHERQ-blue{fill:#568fd3}.HIGHERQ-orange{fill:#f19a49}.HIGHERQ-red{fill:#e26153}
+      .HIGHERQ-skin{fill:#c4825f}.HIGHERQ-hair{fill:#49372f}.HIGHERQ-paper{fill:#fffdf2}
+      .HIGHERQ-water{fill:#b9dfe8}.HIGHERQ-ground{fill:#dcebea}.HIGHERQ-green{fill:#80b77b}
+      .HIGHERQ-balloon{fill:#fff;stroke:#1e292e;stroke-width:3}
+      .HIGHERQ-text{font-family:"Trebuchet MS",Arial,sans-serif;font-size:18px;font-weight:700;fill:#1e292e}
+      .HIGHERQ-small{font-family:"Trebuchet MS",Arial,sans-serif;font-size:13px;font-weight:800;fill:#1e292e}
+      .HIGHERQ-big{font-family:"Trebuchet MS",Arial,sans-serif;font-size:24px;font-weight:900;fill:#1e292e}
+    </style>
+  </defs>
+
+  <rect class="HIGHERQ-panel" x="6" y="6" width="348" height="328" rx="10"/>
+  <rect class="HIGHERQ-panel" x="366" y="6" width="348" height="328" rx="10"/>
+  <rect class="HIGHERQ-panel" x="726" y="6" width="348" height="328" rx="10"/>
+
+  <!-- Panel 1: two models agree -->
+  <g id="HIGHERQ-panel-one">
+    <path class="HIGHERQ-ground HIGHERQ-thin" d="M9 270q82-20 171 0t171-9v70H9Z"/>
+    <rect class="HIGHERQ-paper HIGHERQ-ink" x="87" y="92" width="183" height="126" rx="7"/>
+    <rect class="HIGHERQ-teal" x="87" y="92" width="183" height="27" rx="7"/>
+    <text class="HIGHERQ-small" x="130" y="111">TRAVEL-TIME MODEL</text>
+    <path class="HIGHERQ-blue HIGHERQ-thin" d="M100 190q18-30 38-19t28-18q15-30 37-4t54-8v64H100Z"/>
+    <circle class="HIGHERQ-orange HIGHERQ-thin" cx="126" cy="181" r="6"/>
+    <circle class="HIGHERQ-red HIGHERQ-thin" cx="235" cy="143" r="6"/>
+    <path class="HIGHERQ-red HIGHERQ-thin" d="M132 179q43-45 98-34" fill="none" stroke-dasharray="6 5"/>
+    <rect class="HIGHERQ-white HIGHERQ-thin" x="157" y="126" width="65" height="31" rx="5"/>
+    <text class="HIGHERQ-big" x="166" y="149">4 min</text>
+
+    <!-- Robot A -->
+    <rect class="HIGHERQ-blue HIGHERQ-ink" x="24" y="181" width="61" height="54" rx="14"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="41" cy="204" r="7"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="68" cy="204" r="7"/>
+    <circle class="HIGHERQ-dark" cx="43" cy="204" r="3"/>
+    <circle class="HIGHERQ-dark" cx="70" cy="204" r="3"/>
+    <path class="HIGHERQ-thin" fill="none" d="M42 221q13 8 26 0"/>
+    <path class="HIGHERQ-teal HIGHERQ-ink" d="M31 235h47l7 57H24Z"/>
+    <rect class="HIGHERQ-orange HIGHERQ-thin" x="32" y="255" width="45" height="25" rx="3"/>
+    <text class="HIGHERQ-small" x="36" y="273">OK</text>
+
+    <!-- Robot B -->
+    <rect class="HIGHERQ-teal HIGHERQ-ink" x="276" y="181" width="61" height="54" rx="14"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="293" cy="204" r="7"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="320" cy="204" r="7"/>
+    <circle class="HIGHERQ-dark" cx="295" cy="204" r="3"/>
+    <circle class="HIGHERQ-dark" cx="322" cy="204" r="3"/>
+    <path class="HIGHERQ-thin" fill="none" d="M294 221q13 8 26 0"/>
+    <path class="HIGHERQ-blue HIGHERQ-ink" d="M283 235h47l7 57h-61Z"/>
+    <rect class="HIGHERQ-orange HIGHERQ-thin" x="284" y="255" width="45" height="25" rx="3"/>
+    <text class="HIGHERQ-small" x="288" y="273">OK</text>
+
+    <path class="HIGHERQ-balloon" d="M17 23h129q10 0 10 10v38q0 10-10 10H81L69 96l2-15H17Q7 81 7 71V33q0-10 10-10Z"/>
+    <text class="HIGHERQ-text" x="30" y="54">Plausible.</text>
+
+    <path class="HIGHERQ-balloon" d="M223 23h114q10 0 10 10v38q0 10-10 10h-53l-12 15 2-15h-51q-10 0-10-10V33q0-10 10-10Z"/>
+    <text class="HIGHERQ-text" x="237" y="54">Agreed.</text>
+  </g>
+
+  <!-- Panel 2: independent check -->
+  <g id="HIGHERQ-panel-two">
+    <path class="HIGHERQ-water HIGHERQ-thin" d="M369 203q48-17 91 0t89 0 82 0 80-4v132H369Z"/>
+    <path class="HIGHERQ-green HIGHERQ-thin" d="M369 203q44-28 82-9t59-9q36-27 81 8t120-4v22q-70 13-117-3t-80 3q-35 24-75 2t-70 12Z"/>
+
+    <!-- Researcher with timetable -->
+    <circle class="HIGHERQ-skin HIGHERQ-ink" cx="430" cy="148" r="29"/>
+    <path class="HIGHERQ-hair HIGHERQ-ink" d="M402 139q6-34 33-32 27 2 29 33-21-3-30-17-10 14-32 16Z"/>
+    <circle class="HIGHERQ-dark" cx="422" cy="151" r="3"/>
+    <circle class="HIGHERQ-dark" cx="442" cy="151" r="3"/>
+    <path class="HIGHERQ-thin" fill="none" d="M422 167q10-7 20 0"/>
+    <path class="HIGHERQ-orange HIGHERQ-ink" d="M403 183q28-16 56 0l9 103h-74Z"/>
+    <rect class="HIGHERQ-paper HIGHERQ-ink" x="455" y="192" width="73" height="89" rx="4"/>
+    <text class="HIGHERQ-small" x="466" y="211">TIMETABLE</text>
+    <path class="HIGHERQ-thin" fill="none" d="M467 226h49M467 239h42M467 252h47"/>
+    <text class="HIGHERQ-small" x="469" y="272">121 min</text>
+
+    <!-- Tiny slow ferry -->
+    <path class="HIGHERQ-white HIGHERQ-ink" d="M552 224h115l-18 42h-78Z"/>
+    <rect class="HIGHERQ-blue HIGHERQ-ink" x="579" y="193" width="60" height="34" rx="5"/>
+    <rect class="HIGHERQ-white HIGHERQ-thin" x="589" y="201" width="13" height="10"/>
+    <rect class="HIGHERQ-white HIGHERQ-thin" x="612" y="201" width="13" height="10"/>
+    <path class="HIGHERQ-orange HIGHERQ-ink" d="M608 193v-25h19v25Z"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="583" cy="240" r="8"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="626" cy="240" r="8"/>
+    <circle class="HIGHERQ-dark" cx="585" cy="241" r="3"/>
+    <circle class="HIGHERQ-dark" cx="628" cy="241" r="3"/>
+    <path class="HIGHERQ-thin" fill="none" d="M596 252q10-8 20 0"/>
+    <path class="HIGHERQ-thin" fill="none" d="M548 280q22-10 43 0t43 0 42 0M535 298q24-10 48 0t48 0 53 0"/>
+
+    <!-- Clock -->
+    <circle class="HIGHERQ-white HIGHERQ-ink" cx="645" cy="112" r="38"/>
+    <path class="HIGHERQ-ink" fill="none" d="M645 112l-17 10M645 112V89"/>
+    <text class="HIGHERQ-small" x="620" y="163">still sailing</text>
+
+    <path class="HIGHERQ-balloon" d="M387 24h276q11 0 11 11v43q0 11-11 11H534l-17 19 3-19H387q-11 0-11-11V35q0-11 11-11Z"/>
+    <text class="HIGHERQ-text" x="401" y="53">Let's ask the actual data.</text>
+  </g>
+
+  <!-- Panel 3: evidence arrives -->
+  <g id="HIGHERQ-panel-three">
+    <path class="HIGHERQ-ground HIGHERQ-thin" d="M729 270q84-20 171 0t171-10v71H729Z"/>
+
+    <!-- Ferry bursts into review room -->
+    <path class="HIGHERQ-red HIGHERQ-ink" d="M748 93l18 18-17 14 23 12-14 21 26 3-10 25" fill="none"/>
+    <path class="HIGHERQ-white HIGHERQ-ink" d="M744 194h183l-25 70H772Z"/>
+    <rect class="HIGHERQ-blue HIGHERQ-ink" x="787" y="149" width="96" height="49" rx="6"/>
+    <rect class="HIGHERQ-white HIGHERQ-thin" x="800" y="160" width="18" height="14"/>
+    <rect class="HIGHERQ-white HIGHERQ-thin" x="827" y="160" width="18" height="14"/>
+    <rect class="HIGHERQ-white HIGHERQ-thin" x="854" y="160" width="18" height="14"/>
+    <path class="HIGHERQ-orange HIGHERQ-ink" d="M833 149v-36h26v36Z"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="790" cy="220" r="12"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="872" cy="220" r="12"/>
+    <circle class="HIGHERQ-dark" cx="793" cy="221" r="4"/>
+    <circle class="HIGHERQ-dark" cx="875" cy="221" r="4"/>
+    <path class="HIGHERQ-thin" fill="none" d="M817 241q18-15 36 0"/>
+
+    <!-- Timetable slammed down -->
+    <path class="HIGHERQ-paper HIGHERQ-ink" d="M907 190l107-17 16 98-107 16Z"/>
+    <text class="HIGHERQ-small" transform="rotate(-9 967 211)" x="935" y="211">PRIMARY</text>
+    <text class="HIGHERQ-small" transform="rotate(-9 967 228)" x="939" y="228">SOURCE</text>
+    <path class="HIGHERQ-thin" transform="rotate(-9 967 242)" d="M936 240h62M938 253h52M940 266h59"/>
+    <text class="HIGHERQ-big" transform="rotate(-9 971 280)" x="948" y="280">121</text>
+
+    <!-- Embarrassed robots -->
+    <rect class="HIGHERQ-blue HIGHERQ-ink" x="747" y="268" width="55" height="46" rx="12"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="762" cy="287" r="6"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="787" cy="287" r="6"/>
+    <circle class="HIGHERQ-dark" cx="764" cy="288" r="2.5"/>
+    <circle class="HIGHERQ-dark" cx="789" cy="288" r="2.5"/>
+    <path class="HIGHERQ-thin" fill="none" d="M763 303q12-7 24 0"/>
+    <rect class="HIGHERQ-teal HIGHERQ-ink" x="824" y="268" width="55" height="46" rx="12"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="839" cy="287" r="6"/>
+    <circle class="HIGHERQ-white HIGHERQ-thin" cx="864" cy="287" r="6"/>
+    <circle class="HIGHERQ-dark" cx="841" cy="288" r="2.5"/>
+    <circle class="HIGHERQ-dark" cx="866" cy="288" r="2.5"/>
+    <path class="HIGHERQ-thin" fill="none" d="M840 303q12-7 24 0"/>
+    <g transform="rotate(18 905 300)">
+      <rect class="HIGHERQ-orange HIGHERQ-thin" x="884" y="286" width="45" height="25" rx="3"/>
+      <text class="HIGHERQ-small" x="890" y="304">OK?</text>
+    </g>
+
+    <path class="HIGHERQ-balloon" d="M770 24h270q11 0 11 11v48q0 11-11 11H913l-22 22 5-22H770q-11 0-11-11V35q0-11 11-11Z"/>
+    <text class="HIGHERQ-text" x="787" y="53">I would like a word.</text>
+    <text class="HIGHERQ-small" x="787" y="78">— the ferry</text>
+  </g>
+</svg>
