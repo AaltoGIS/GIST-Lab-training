@@ -1,53 +1,45 @@
-Testing and packaging Python libraries
-======================================
+:html_theme.sidebar_secondary.remove:
 
-This short module introduces the basic ideas of testing, packaging, and
-continuous integration for Python libraries. We use `pyrosm
-<https://github.com/pyrosm/pyrosm>`__ as the running example because it is a
-real open-source package with compiled code, documentation, tests, GitHub
-Actions workflows, and PyPI releases.
+GIST Lab Training
+=================
 
-The aim is not to copy every detail from pyrosm. Instead, we use it to learn
-the vocabulary and the development workflow that your own package can grow
-towards.
+.. rst-class:: lead
 
-Learning objectives
--------------------
+    Short, practical training materials for **doing research software and
+    research with AI well** — from the mechanics of a maintainable Python
+    library to the responsible and efficient use of AI in a research group.
 
-At the end of this module, you should be able to:
+These materials collect the day-to-day skills we lean on in the lab. Each
+**theme** below is a self-contained module: a set of short pages you can read in
+order or dip into when a specific question comes up. The examples are concrete
+and drawn from real tools and workflows, so the vocabulary you learn here maps
+directly onto your own projects.
 
-- Explain why automated tests are useful in a Python library.
-- Define common testing terms such as **test case**, **fixture**, **assertion**,
-  **skip**, and **coverage**.
-- Choose test data and test structure that keep the test suite fast and
-  reliable.
-- Recognise the main files that define how a Python package is built.
-- Explain the difference between a **source distribution** and a **wheel**.
-- Describe how GitHub Actions can run tests automatically on pull requests.
-- Sketch a simple release workflow that builds and publishes a package to PyPI.
+.. grid:: 1 2 2 2
+    :gutter: 4
+    :class-container: sd-text-center
 
-Contents
---------
+    .. grid-item-card:: Testing and packaging Python libraries
+        :link: testing_packaging/index
+        :link-type: doc
+        :class-card: sd-border-0
+
+        Why tests matter, the testing vocabulary, packaging a library for
+        PyPI, and running it all automatically with GitHub Actions. Uses
+        ``pyrosm`` as the running example.
+
+    .. grid-item-card:: Responsible and efficient use of AI for research
+        :link: ai_research/index
+        :link-type: doc
+        :class-card: sd-border-0
+
+        Where AI tools genuinely help, how to get good results without
+        wasting effort, and how to stay honest, transparent, and
+        reproducible while doing it.
 
 .. toctree::
-   :maxdepth: 2
+    :hidden:
+    :maxdepth: 1
 
-   testing
-   good_practices
-   packaging
-   continuous_integration
-   checklist
-
-Sources
--------
-
-The examples in this module are based on the current pyrosm repository files,
-especially:
-
-- `tests/ <https://github.com/pyrosm/pyrosm/tree/master/tests>`__
-- `setup.py <https://github.com/pyrosm/pyrosm/blob/master/setup.py>`__
-- `pyproject.toml <https://github.com/pyrosm/pyrosm/blob/master/pyproject.toml>`__
-- `MANIFEST.in <https://github.com/pyrosm/pyrosm/blob/master/MANIFEST.in>`__
-- `.github/workflows/tests.yaml <https://github.com/pyrosm/pyrosm/blob/master/.github/workflows/tests.yaml>`__
-- `.github/workflows/release.yaml <https://github.com/pyrosm/pyrosm/blob/master/.github/workflows/release.yaml>`__
-- `docs/conf.py <https://github.com/pyrosm/pyrosm/blob/master/docs/conf.py>`__
+    Testing and packaging <testing_packaging/index>
+    AI for research <ai_research/index>

@@ -1,5 +1,7 @@
-# Documentation toolchain, following pyrosm's Sphinx + MyST-NB convention.
-myst-nb>=1.0,<2.0
-sphinx>=7.0,<9.0
-sphinx-book-theme>=1.1,<2.0
-ipython>=8.0
+# Documentation toolchain: Sphinx + MyST-NB notebooks, the PyData theme, and
+# sphinx-design for the landing-page cards and grids.
+sphinx>=7
+myst-nb>=1
+pydata-sphinx-theme>=0.15
+sphinx-design>=0.6
+ipython>=8
